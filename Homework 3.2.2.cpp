@@ -97,7 +97,7 @@ int main()
 		{
 			case 'a': // add
 			case 'A': 
-				while (answer[0] != 'x' && answer[0] != 'X')
+				while (END_CONDITION)
 				{
 					
 					add_account(&list);
